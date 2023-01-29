@@ -6,8 +6,8 @@ spec:
   destination:
     namespace: argocd 
     server: https://kubernetes.default.svc 
-  project: argocd
+  project: default
   source:
     path: kustomize-installation 
-    repoURL: https://github.com/PacktPublishing/ArgoCD-in-Practice.git 
+    repoURL: https://github.com/phuoctech/learn-argocd.git
     targetRevision: main
