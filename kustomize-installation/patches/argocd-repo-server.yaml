@@ -3,5 +3,4 @@ kind: Deployment
 metadata:
   name: argocd-repo-server
 spec:
-  progressDeadlineSeconds: 600
   replicas: 1
