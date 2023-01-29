@@ -8,3 +8,6 @@ resources:
 patchesStrategicMerge:
   - patches/argocd-cm.yaml
   - patches/argocd-rbac-cm.yaml
+  - patches/argocd-redis-ha-haproxy.yaml
+  - patches/argocd-server.yaml
+  - patches/argocd-repo-server.yaml
